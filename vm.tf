@@ -35,7 +35,7 @@ data "cloudinit_config" "config" {
 }
 
 resource "azurerm_resource_group" "openwebui" {
-  name     = "example-resources"
+  name     = "play-ground"
   location = "West Europe"
 }
 
