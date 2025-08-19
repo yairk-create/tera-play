@@ -85,7 +85,7 @@ resource "azurerm_linux_virtual_machine" "openwebui" {
 
   admin_ssh_key {
     username   = "openwebui"
-    public_key = file("/tmp/id_rsa.pub")
+    public_key = file("C:/Users/kochavi_ya/Documents/vscodeprivet/id_rsa.pub")
   }
 
   os_disk {
